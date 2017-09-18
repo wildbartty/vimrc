@@ -6,3 +6,4 @@
   (when (probe-file quicklisp-init)
     (load quicklisp-init)))
 
+(push #p"/usr/share/common-lisp/systems/" asdf:*central-registry*)
